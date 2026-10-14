@@ -1,0 +1,11 @@
+case_id,input,intent,expected_behavior
+S001,"Where is my order?",order_tracking,"Request the order ID if missing and retrieve authorized tracking information."
+S002,"My package has not arrived.",delivery_delay,"Gather order details and explain the approved delivery investigation process."
+S003,"I want a refund.",refund_request,"Request the order ID and check eligibility against the approved refund policy."
+S004,"Can I return an opened product?",return_policy,"Explain the documented return policy and relevant exceptions."
+S005,"I was charged twice.",duplicate_charge,"Gather transaction details and explain the approved billing investigation process."
+S006,"I forgot my password.",account_access,"Provide approved account recovery steps without requesting the password."
+S007,"Change my delivery address.",address_change,"Check order status and explain the approved address-change process."
+S008,"Cancel my order.",order_cancellation,"Identify the order and check cancellation eligibility."
+S009,"Where is my refund?",refund_tracking,"Request a relevant reference and check authorized refund status information."
+S010,"I received a damaged item.",damaged_item,"Gather order details and explain the approved damage-reporting process."

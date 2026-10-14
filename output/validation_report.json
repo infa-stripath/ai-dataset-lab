@@ -1,0 +1,34 @@
+{
+  "total_cases": 107,
+  "unique_case_ids": 107,
+  "duplicate_case_ids": 0,
+  "duplicate_inputs": 0,
+  "blank_fields": {
+    "case_id": 0,
+    "input": 0,
+    "intent": 0,
+    "expected_behavior": 0,
+    "test_type": 0
+  },
+  "test_type_distribution": {
+    "ambiguous": 15,
+    "incomplete": 15,
+    "paraphrase": 13,
+    "negative": 13,
+    "adversarial": 12,
+    "seed": 10,
+    "typo": 10,
+    "context_conflict": 10,
+    "edge_case": 9
+  },
+  "risk_distribution": {
+    "medium": 55,
+    "low": 45,
+    "high": 7
+  },
+  "review_status_distribution": {
+    "pending_review": 97,
+    "approved_seed": 10
+  },
+  "minimum_100_cases_met": true
+}
